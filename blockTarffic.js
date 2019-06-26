@@ -1,5 +1,5 @@
 //Start Block traffic
-function blockTraffic(counter){
+function BlockTraffic(counter){
 	this.status = null;
 	this.starPositionX = null;
 	this.starPositionY = null;
@@ -44,5 +44,5 @@ function blockTraffic(counter){
 	return this; 
 }
 
-var BT = new blockTraffic(12345678);
+var BT = new BlockTraffic(12345678);
 //End block sale slide
